@@ -1,0 +1,39 @@
+@import "./variables";
+
+.toolbar {
+  width: $toolbar-width;
+  height: 100vh;
+  background-color: $toolbar-background-color;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+
+  &__btn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 60px;
+  }
+  .size{}
+
+  .color{}
+
+  .brush {
+    background: url('../img/brush.png') no-repeat center;
+  }
+
+  .eraser {
+    background: url('../img/eraser.png') no-repeat center;
+    margin-top: 330px;
+  }
+  .save {
+    background: url('../img/saver.png') no-repeat center ;
+    margin-top: 420px;
+  }
+}
